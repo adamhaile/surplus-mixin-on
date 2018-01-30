@@ -1,0 +1,20 @@
+{
+  "name": "surplus-mixin-on",
+  "version": "0.5.0-beta1",
+  "description": "Declarative custom event binding for Surplus applications",
+  "main": "index.js",
+  "module": "index.es.js",
+  "types": "index.es.d.ts",
+  "scripts": {
+    "build": "tsc && rollup -c"
+  },
+  "author": "Adam Haile",
+  "license": "MIT",
+  "peerDependencies": {
+    "surplus": "^0.5.0-beta9"
+  },
+  "devDependencies": {
+    "rollup": "^0.55.1",
+    "typescript": "^2.6.2"
+  }
+}
